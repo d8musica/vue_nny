@@ -1,16 +1,15 @@
 <template>
   <section class="container">
-    {{msg}}
+    <Login />
   </section>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-import {mapState} from 'vuex'
+import Login from '~/components/Login.vue'
 export default {
-  computed: mapState([
-    'msg'
-  ])
+  components: {
+    Login
+  }
 }
 </script>
 

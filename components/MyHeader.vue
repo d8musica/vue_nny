@@ -1,14 +1,10 @@
 <template>
-
   <div class="topnav">
-
-    <a class="active" href="#home"><nuxt-link to='/login'>Log in</nuxt-link></a>
-    <a href="#news"><nuxt-link to='/'>Offers</nuxt-link></a>
-    <a href="#contact"><nuxt-link to='/'>Page1</nuxt-link></a>
-    <a href="#about"><nuxt-link to='/'>Page2</nuxt-link></a>
-
+    <nuxt-link to='/login'>Log in</nuxt-link>
+    <nuxt-link to='/'>Offers</nuxt-link>
+    <nuxt-link to='/'>Page1</nuxt-link>
+    <nuxt-link to='/'>Page2</nuxt-link>
   </div>
-
 </template>
 
 <style scoped>
